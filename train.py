@@ -16,8 +16,8 @@ import os
 import time
 import argparse
 import numpy as np
-from tag_model import MAModel
-from tag_agent import MAAgent
+from model import MAModel
+from agent import MAAgent
 import parl
 from parl.env.multiagent_simple_env import MAenv
 from parl.utils import logger, summary
